@@ -33,9 +33,9 @@
   background-color: #fcfcfc;
   border-radius: 4px;
   box-shadow:
-    0 2px 0.5px rgba(0, 0, 0, 0.2),
-    0 1px 1.5px rgba(0, 0, 0, 0.12),
-    0 1px 0.5px rgba(0, 0, 0, 0.14);
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .modal-title {
@@ -72,7 +72,7 @@
 
 .modal-close:hover,
 .modal-close:focus {
-  color: #f4f4fd;
+  color: #ffffff;
   background-color: #404bbf;
   border-color: #404bbf;
 }
@@ -141,7 +141,7 @@
 .modal-input-icon {
   position: absolute;
   top: 50%;
-  left: 15px;
+  left: 16px;
   transform: translateY(-50%);
   color: #2e2f42;
   pointer-events: none;
@@ -163,7 +163,7 @@
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.04em;
-  color: #2e2f42;
+  color: #434455;
   background-color: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -203,8 +203,8 @@
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #f4f4fd;
   background-color: #fcfcfc;
   border: 1px solid rgba(46, 47, 66, 0.4);
